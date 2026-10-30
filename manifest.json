@@ -1,0 +1,711 @@
+{
+  "manifest_version": 1,
+  "version": "19I",
+  "generated_at": "2026-10-30T09:07:08Z",
+  "file_count": 100,
+  "total_size": 1122829562,
+  "files": [
+    {
+      "path": "Among Us.exe",
+      "blob": "bptawqunyhzq56625twr.bin",
+      "size": 650240,
+      "sha256": "59bd0e08a82977101e9788da9c636523acde863af8e620c7763e1b263d18534d",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/bptawqunyhzq56625twr.bin"
+    },
+    {
+      "path": "GameAssembly.dll",
+      "blob": "2xksbrnlx4sj5r72fcwl.bin",
+      "size": 49192448,
+      "sha256": "75415eefe9e850a177aa91f042f3b03c931516d651e6951a6d2f9fa137f6c716",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/2xksbrnlx4sj5r72fcwl.bin"
+    },
+    {
+      "path": "UnityCrashHandler32.exe",
+      "blob": "6aoanw7f2wlkrsontmnt.bin",
+      "size": 1005248,
+      "sha256": "178ed52e3d865febc9c5a39ec7242db2228c86f79795ee1d896ec7548aa49cbf",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/6aoanw7f2wlkrsontmnt.bin"
+    },
+    {
+      "path": "UnityPlayer.dll",
+      "blob": "ndudhw6xsjnmkp5ogcv2.bin",
+      "size": 23004072,
+      "sha256": "cfa8fc02d3a0b42316279dc37b74d3b97a9cddb715d431af2b92e7962d7ef01e",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ndudhw6xsjnmkp5ogcv2.bin"
+    },
+    {
+      "path": "baselib.dll",
+      "blob": "jlas5jy7glyzlsiaduyf.bin",
+      "size": 334016,
+      "sha256": "30688b1c27a48f5df974c34a381891c355341aaf934d6e5df15c8ff6ec7787e1",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/jlas5jy7glyzlsiaduyf.bin"
+    },
+    {
+      "path": "Among Us_Data/RuntimeInitializeOnLoads.json",
+      "blob": "qwp5roqcuxqtf6j26ceh.bin",
+      "size": 2940,
+      "sha256": "c430c9774a7a5c7b9b7902f4f2e5a49f13403fb29464478b2fe524fb29d603fc",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/qwp5roqcuxqtf6j26ceh.bin"
+    },
+    {
+      "path": "Among Us_Data/ScriptingAssemblies.json",
+      "blob": "lir2plby23cizpnm5625.bin",
+      "size": 4849,
+      "sha256": "64dfe6895606268c14db44872901b10279ff30b7e394254d2c2d25222bf2c497",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/lir2plby23cizpnm5625.bin"
+    },
+    {
+      "path": "Among Us_Data/app.info",
+      "blob": "ug5gf66i3ke7pcbcz32a.bin",
+      "size": 19,
+      "sha256": "7110f165350438828ab224f0550dc060fb8fb2773b573d75af61ca86ef98f54c",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ug5gf66i3ke7pcbcz32a.bin"
+    },
+    {
+      "path": "Among Us_Data/boot.config",
+      "blob": "xzrduhtuh6wotr4x5uut.bin",
+      "size": 113,
+      "sha256": "7b6d6291052e9de2456c89d1cc4f0f4595c1bd9adcfd677e5ad4867908a02f1f",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/xzrduhtuh6wotr4x5uut.bin"
+    },
+    {
+      "path": "Among Us_Data/globalgamemanagers",
+      "blob": "azbyneyuhwinzigrzlu7.bin",
+      "size": 234932,
+      "sha256": "bd0797842c776a041abaf2c5b4c77801b76241a2f0ddfa33fde6929e871f9a3f",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/azbyneyuhwinzigrzlu7.bin"
+    },
+    {
+      "path": "Among Us_Data/globalgamemanagers.assets",
+      "blob": "ygdm3brkwyqh44bi6kcn.bin",
+      "size": 507648,
+      "sha256": "db34cd26d24783193ac6c6f4feb0292e466fc24188a9506dadda723c5a1a8543",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ygdm3brkwyqh44bi6kcn.bin"
+    },
+    {
+      "path": "Among Us_Data/globalgamemanagers.assets.resS",
+      "blob": "qn2pnb527whq7mjlhsup.bin",
+      "size": 623200,
+      "sha256": "7c6ebd98430618884f0b000e6dc8415f78f3c8df6221f2c35194bf34535246f6",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/qn2pnb527whq7mjlhsup.bin"
+    },
+    {
+      "path": "Among Us_Data/level0",
+      "blob": "ftwoe4ktjiwquphxdqx6.bin",
+      "size": 1568,
+      "sha256": "c3b3aa0ccb3e17431f9dc4afa33497ed8a97eef63c8370162d5130f882b33867",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ftwoe4ktjiwquphxdqx6.bin"
+    },
+    {
+      "path": "Among Us_Data/level1",
+      "blob": "bzaomz6k62urllmr4upf.bin",
+      "size": 98564,
+      "sha256": "e1ad8b00752d8fcdbb889b836200c3179cb3b361a5d267da0fff33b5019a8453",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/bzaomz6k62urllmr4upf.bin"
+    },
+    {
+      "path": "Among Us_Data/level2",
+      "blob": "x32aqg4gwnh5uw5msyhr.bin",
+      "size": 1897232,
+      "sha256": "e4d1c6d1eef8b245242a11383b15b9154d53c8542fde653bc46194d1be9c6141",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/x32aqg4gwnh5uw5msyhr.bin"
+    },
+    {
+      "path": "Among Us_Data/level3",
+      "blob": "2phnsx774z4ustw63lno.bin",
+      "size": 42452,
+      "sha256": "fd48e10a708c8f57f2fc7e3159c67ad04e72946f4be6cbd29d94e76266b921c8",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/2phnsx774z4ustw63lno.bin"
+    },
+    {
+      "path": "Among Us_Data/level4",
+      "blob": "letv6uokaojm23a2vxo5.bin",
+      "size": 575800,
+      "sha256": "cdf9ba4e2d3cf6fdff9f35d58c8e249ff3ca935da4e61ed3517b46e6ff858f52",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/letv6uokaojm23a2vxo5.bin"
+    },
+    {
+      "path": "Among Us_Data/level5",
+      "blob": "53naxmznmymd26e7bdux.bin",
+      "size": 581848,
+      "sha256": "e5ec09eaa610964e2d54d549899ff8d4d0d772bc2d7c21b86aaa2510c1f3750d",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/53naxmznmymd26e7bdux.bin"
+    },
+    {
+      "path": "Among Us_Data/level6",
+      "blob": "dnrx556kco2jm5mzpwdg.bin",
+      "size": 59956,
+      "sha256": "928bc0dffc5ebfeaed36d4ab44c01d1ed216f00eff483abbc7aedf08736e2975",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/dnrx556kco2jm5mzpwdg.bin"
+    },
+    {
+      "path": "Among Us_Data/level7",
+      "blob": "2zeysqx4ppxhgpfltdbh.bin",
+      "size": 261780,
+      "sha256": "f8cfaaf222864f7e306c5d092dd0299b638a47557787db713a643ad8d6653134",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/2zeysqx4ppxhgpfltdbh.bin"
+    },
+    {
+      "path": "Among Us_Data/level8",
+      "blob": "av2ya4ndqe76q7s7gdwz.bin",
+      "size": 289684,
+      "sha256": "3e665461d90ffd6fedae761d8cdcc1b8515721bb544d76a9a36c86b5a9a4c820",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/av2ya4ndqe76q7s7gdwz.bin"
+    },
+    {
+      "path": "Among Us_Data/level9",
+      "blob": "6pfvdovj3eeallyoc2w7.bin",
+      "size": 220560,
+      "sha256": "b143e21b19582879807a6dc813588a348c76edc2ae730755d840fc51c88b7452",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/6pfvdovj3eeallyoc2w7.bin"
+    },
+    {
+      "path": "Among Us_Data/resources.assets",
+      "blob": "k3hg37r2j6bqop6et6gf.bin",
+      "size": 26851984,
+      "sha256": "e8ae0c53cd0930ca66e6676cc8a0bb224870bb0a012de736c2a65e1850eb3e2f",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/k3hg37r2j6bqop6et6gf.bin"
+    },
+    {
+      "path": "Among Us_Data/resources.assets.resS",
+      "blob": "ojvr45ytyd3ahiz4eplf.bin",
+      "size": 28558544,
+      "sha256": "1e70bc4448b55e133f93b4d8d5a173e99b401113b2917dde9379e99da2f79452",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ojvr45ytyd3ahiz4eplf.bin"
+    },
+    {
+      "path": "Among Us_Data/resources.resource",
+      "blob": "wve6a642324uug7sv5dt.bin",
+      "size": 14048,
+      "sha256": "b832a487cd77392bebcfdff19833b3b3bc97bd255d0e232dd58f0b994f0c5fcb",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/wve6a642324uug7sv5dt.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets0.assets",
+      "blob": "zbjzqjzxfhrz7crhc2mp.bin",
+      "size": 1441188,
+      "sha256": "5fe303973491b74758711de241f2f683fb4c01c616af92904da614d0d99fd501",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/zbjzqjzxfhrz7crhc2mp.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets1.assets",
+      "blob": "pmlj6z2xt57hew3aa6j2.bin",
+      "size": 181080,
+      "sha256": "e53091fca0109e0e065f062dc49de68c3365d90e1d2ca13be70463c28283ff65",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/pmlj6z2xt57hew3aa6j2.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets1.assets.resS",
+      "blob": "5jdi3sg4fe5wu5bt3brc.bin",
+      "size": 18079568,
+      "sha256": "d143f5765948e5be49f779ac2b43c67601d7eb3fe880e6dc44d9fd40162f961d",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/5jdi3sg4fe5wu5bt3brc.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets1.resource",
+      "blob": "wtqouoxriofhr5syp76n.bin",
+      "size": 205760,
+      "sha256": "d517537751b257c5898859f6e9a332b58c90dd0f44a33af09fd62750646869a2",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/wtqouoxriofhr5syp76n.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets2.assets",
+      "blob": "skzbpb4kbi6dwyipdmlf.bin",
+      "size": 11697828,
+      "sha256": "5ed3d711517c0c5bda4df8630f68c15068692aa855d85803e60149e2cb9603ef",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/skzbpb4kbi6dwyipdmlf.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets2.assets.resS",
+      "blob": "ebhfyinvexrfafbrqr4s.bin",
+      "size": 207612336,
+      "sha256": "a331f5b80e43bc84c4ebf7e4783653b4c7b9df21126564e824ad27a0444926c6",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ebhfyinvexrfafbrqr4s.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets2.resource",
+      "blob": "7ftxkinli5qrfaipfuxy.bin",
+      "size": 39149376,
+      "sha256": "09eac5f3e31ab09c7a0564c85588b816ac9792f0fbad343b11ea3e94989a0ce2",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/7ftxkinli5qrfaipfuxy.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets3.assets",
+      "blob": "gms3q2y3bltrixo5lq3c.bin",
+      "size": 102668,
+      "sha256": "3742866e23549dc1720ad59f4adfb4147a5a83f33aa9692bd2c2a4d57ad6c306",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/gms3q2y3bltrixo5lq3c.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets4.assets",
+      "blob": "ooxe72e2sku7x5iujiif.bin",
+      "size": 2478668,
+      "sha256": "38fc63fdbf592759d32e870a1d71ecc0587b9ad962b5a1f48c5c6e4d06401b46",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ooxe72e2sku7x5iujiif.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets4.assets.resS",
+      "blob": "2svtt3gnsxp42daei65j.bin",
+      "size": 24955456,
+      "sha256": "c62c7d0d878140f8d3bf70fe7310228bacd8afd5a2c6b1b5c2c3222161567b24",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/2svtt3gnsxp42daei65j.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets4.resource",
+      "blob": "pqhs4yrwi733vf5twute.bin",
+      "size": 2209248,
+      "sha256": "ae0dd46fd8f3b92f3c99b34e448d3d444a17ccff874b88c76adc972493371c72",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/pqhs4yrwi733vf5twute.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets5.assets",
+      "blob": "lex3thqlvjpxheepxcrw.bin",
+      "size": 168497,
+      "sha256": "bad9b3d14ade08a726201a2de0652086d66de7a65b67c06e1c2f12cfa5e03e19",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/lex3thqlvjpxheepxcrw.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets6.assets",
+      "blob": "jr5ikm4fg7xxudqcpcbl.bin",
+      "size": 14196,
+      "sha256": "e92f8252ee74848b11be753b710458634c1c2ef20afbf6ea8bf73a5a550045f9",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/jr5ikm4fg7xxudqcpcbl.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets6.resource",
+      "blob": "hndgzq7twgbsyzlompt3.bin",
+      "size": 1798848,
+      "sha256": "ea187653c30e115e830d725790da12a98e9d4f9567106d0e232cc463e5498cac",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/hndgzq7twgbsyzlompt3.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets7.assets",
+      "blob": "7ksfwupb33f7lrthlhs2.bin",
+      "size": 110916,
+      "sha256": "0d4f386983e0da0a3ffd96c1af264c19f271f51f3849c1ae597462db7f1df940",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/7ksfwupb33f7lrthlhs2.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets7.assets.resS",
+      "blob": "rj3mxzqv2e7fbglkz5pi.bin",
+      "size": 16739328,
+      "sha256": "bd527e8022ab5b63a9da232dd3333c882ab330e7a18550204ecb4df6e5ca1578",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/rj3mxzqv2e7fbglkz5pi.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets8.assets",
+      "blob": "ihgui5ta3n7xubf674az.bin",
+      "size": 48612,
+      "sha256": "99b97bb9411e5e353879e79bbf9ad8bb7f93d8719c2629dce7c9e707016185dc",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ihgui5ta3n7xubf674az.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets8.resource",
+      "blob": "dj2sjhpfp5ajdovim7hi.bin",
+      "size": 499392,
+      "sha256": "3ace4644f9a58f4bd26d6dc811593b7726615ff2dd4cc4cfdbce5dc01b2134dd",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/dj2sjhpfp5ajdovim7hi.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets9.assets",
+      "blob": "qy4zsrk4qrqlbs5eczoh.bin",
+      "size": 1925916,
+      "sha256": "193d5eae285c2503e62d386bc7fdbfd25b0b45ae1283b5f1710fe7fa79daeaf5",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/qy4zsrk4qrqlbs5eczoh.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets9.assets.resS",
+      "blob": "eppkfm4bndk7oo6hgpwl.bin",
+      "size": 12317808,
+      "sha256": "0838c8c895f084eab80e72d23c268f4737131b7db4f70d52e19aad8f98eafaff",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/eppkfm4bndk7oo6hgpwl.bin"
+    },
+    {
+      "path": "Among Us_Data/sharedassets9.resource",
+      "blob": "gkpsbiapejfaokq2fcfu.bin",
+      "size": 1932640,
+      "sha256": "06a345abb35404a43dd27ff7522cf032993ade6f922f1af2f0458eaa15acd6cb",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/gkpsbiapejfaokq2fcfu.bin"
+    },
+    {
+      "path": "Among Us_Data/Plugins/x86/EOSSDK-Win32-Shipping.dll",
+      "blob": "xijkisrk5exwz63hnnlt.bin",
+      "size": 14127080,
+      "sha256": "0372e1bc98993ba9976e9d4678295c8bc6ad3adf2555b368e275949a6fe46372",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/xijkisrk5exwz63hnnlt.bin"
+    },
+    {
+      "path": "Among Us_Data/Plugins/x86/Rewired_DirectInput.dll",
+      "blob": "2l4uf7hgl7fmni3ipsmr.bin",
+      "size": 82944,
+      "sha256": "6477920278e017d5a4cbd4448b4a69f42c86ce4987efe741455aa247974ffcaa",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/2l4uf7hgl7fmni3ipsmr.bin"
+    },
+    {
+      "path": "Among Us_Data/Plugins/x86/Rewired_WindowsGamingInput.dll",
+      "blob": "ncqixvrsz3giy6lrglhz.bin",
+      "size": 126464,
+      "sha256": "9b2c2e19e8a04495a99e403add69021a092aa0b6767e330f074557a8da11f2c9",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ncqixvrsz3giy6lrglhz.bin"
+    },
+    {
+      "path": "Among Us_Data/Plugins/x86/discord_game_sdk.dll",
+      "blob": "47vrk22qr6cbsymlyjzn.bin",
+      "size": 3201336,
+      "sha256": "f8d820dc3ba4b487ef22c6722c584ec3395405d90e23aafa99e5afbe4425d3cf",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/47vrk22qr6cbsymlyjzn.bin"
+    },
+    {
+      "path": "Among Us_Data/Plugins/x86/sentry.dll",
+      "blob": "qmqx52npmwcsf3gjcvmv.bin",
+      "size": 561152,
+      "sha256": "4af35032e88cdded994202817d3102b7f2eda381e5e544191a28e8a823e6167d",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/qmqx52npmwcsf3gjcvmv.bin"
+    },
+    {
+      "path": "Among Us_Data/Plugins/x86/steam_api.dll",
+      "blob": "bxz3rghtb3fwh3ixose6.bin",
+      "size": 239904,
+      "sha256": "ce6f48938493b90ffa175fc93f2b8ee5189e5db81f1274d5b57c9841d6fe4179",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/bxz3rghtb3fwh3ixose6.bin"
+    },
+    {
+      "path": "Among Us_Data/Resources/AmongUsHelper.exe",
+      "blob": "qf4kdf7qc2beyi7i5ya6.bin",
+      "size": 6656,
+      "sha256": "51c606c433aae256b030e94650f0170aa9560f1350ee8580830144f5846cfa0b",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/qf4kdf7qc2beyi7i5ya6.bin"
+    },
+    {
+      "path": "Among Us_Data/Resources/unity default resources",
+      "blob": "pc7q7syd6y7h7fjflgi6.bin",
+      "size": 1564240,
+      "sha256": "d6c3c5465ee5f1d3479af42c0833754a6f0b6c2897bc0bf35d37d944b1ea258b",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/pc7q7syd6y7h7fjflgi6.bin"
+    },
+    {
+      "path": "Among Us_Data/Resources/unity_builtin_extra",
+      "blob": "t4yx4yviceyzqll3rnh4.bin",
+      "size": 236900,
+      "sha256": "9e5a2e55bb5d8c459304afff46fc5a4602120329a3944ddd4c9f010003bfa1c0",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/t4yx4yviceyzqll3rnh4.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/CustomAssetPacksData.json",
+      "blob": "pgdrkezerfdl33cx5lue.bin",
+      "size": 137,
+      "sha256": "e5eda2692ae02be0f1ce3d669227489fb13ef417c13a6be8e268df7f831a2b14",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/pgdrkezerfdl33cx5lue.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/UnityServicesProjectConfiguration.json",
+      "blob": "sssimbkzlg6fb6kgv4xg.bin",
+      "size": 1131,
+      "sha256": "5bf3ee48e2c79c48d7b814b0e89918d95fe0d8a71d25f20d461891197572f736",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/sssimbkzlg6fb6kgv4xg.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/catalog.json",
+      "blob": "ccal3qcurktxr6mmw4fv.bin",
+      "size": 1125355,
+      "sha256": "94addfab20c4d931a0fac2b34744bd8c7042941ffe2a244fbfec4d03adb392c0",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ccal3qcurktxr6mmw4fv.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/settings.json",
+      "blob": "f2i3ontgrwvvnaxau3pr.bin",
+      "size": 3631,
+      "sha256": "d2380c62e54e10f4b748f2e5bd52c962dc25040366c9377a8fff45e69ed101e2",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/f2i3ontgrwvvnaxau3pr.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/AddressablesLink/link.xml",
+      "blob": "kun2hcoekleyonmjwt5o.bin",
+      "size": 30071,
+      "sha256": "58bb2b3d9aed5d855637e43573fa666cb9597f776f7dc403bbee93c4193fe584",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/kun2hcoekleyonmjwt5o.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/0e13d00f4e855a64ab6bfe6989b0ff98_unitybuiltinshaders.bundle",
+      "blob": "ofks2j2wwurpxearksqi.bin",
+      "size": 54337,
+      "sha256": "b23ce5230df2aae7ec70b1bbc1b0d7ff8e1bcdc21859afe1adf32cbbf2eaff8a",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ofks2j2wwurpxearksqi.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/2024_birthday_beans_assets_all.bundle",
+      "blob": "5nejp4s5ie5xn56t3u2x.bin",
+      "size": 239722,
+      "sha256": "428db66b4fd625f2c70a38d61f6d3fe483257345019aec00aa6c543ad86a6f38",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/5nejp4s5ie5xn56t3u2x.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/2024beanbundle1_assets_all.bundle",
+      "blob": "q53nbwb67hxndb4qc5ux.bin",
+      "size": 2218368,
+      "sha256": "b9a2a48c6a933661df71cfbf7e58372d979ef2aba28197a740c4303a1b0bd65a",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/q53nbwb67hxndb4qc5ux.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/2025beanbuffer2_assets_all.bundle",
+      "blob": "znky5nychrjlslqkyn3m.bin",
+      "size": 5227898,
+      "sha256": "cc8b610cc68b6c009a7b4fdd0e5ca6c2207101a9ffe2f9db33d20a18e9ea553b",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/znky5nychrjlslqkyn3m.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/anniversaryslothmask_assets_all.bundle",
+      "blob": "br4ensgxoj5vtxm33jav.bin",
+      "size": 29899,
+      "sha256": "86b714aaa15ab3b0c11e52ff376c6f4c196324218116ec47634b141250390eff",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/br4ensgxoj5vtxm33jav.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/bday2026_assets_all.bundle",
+      "blob": "hepapzkcc3hwkedrdumr.bin",
+      "size": 25580,
+      "sha256": "8c0db37637b2660d27a91f2f527ab3c19f4960854b004fcf3fabacd5409b7bb6",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/hepapzkcc3hwkedrdumr.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/cosmica_assets_all.bundle",
+      "blob": "tohqd2d7s6ipu5aa7ous.bin",
+      "size": 20227997,
+      "sha256": "dbf40a56d8dacbd66148408a00a68d489ce1fc90bc0c2dee9958d264a148f5d4",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/tohqd2d7s6ipu5aa7ous.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/cosmicb_assets_all.bundle",
+      "blob": "unvsuj3u4774ljynesrv.bin",
+      "size": 250658,
+      "sha256": "bd7242bccc37d075865ca3977ac766e98c241f7b8bf1b6316786710bf45ebec4",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/unvsuj3u4774ljynesrv.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/cosmicubelny24_assets_all.bundle",
+      "blob": "foqagakook7we2epgooo.bin",
+      "size": 20576612,
+      "sha256": "661d856ba482fa38be7e38ef7fced34938439be0f658a8da8f2700434c7dcdaf",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/foqagakook7we2epgooo.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/critrolecubea_assets_all.bundle",
+      "blob": "zoq5ywb7czvf5c7wlhpg.bin",
+      "size": 14789672,
+      "sha256": "2e995f2b4e312465fa42be5555df62ef9657ec428c8d4dbf3cef3f2436fedbec",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/zoq5ywb7czvf5c7wlhpg.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/critrolecubeb_assets_all.bundle",
+      "blob": "aubtccdx6bsxqa5d3lec.bin",
+      "size": 19157025,
+      "sha256": "0bdbd8e50e2f7a57a3e14dc79795758a699c3410e19a33c88832cc5dee84848a",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/aubtccdx6bsxqa5d3lec.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/edgeworth_assets_all.bundle",
+      "blob": "gurq6xyf467za6fjhzhn.bin",
+      "size": 812659,
+      "sha256": "a9dd4cc6555caf129538c6cfac23a42329044ca37d4bb7a50237df5adbe7d14f",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/gurq6xyf467za6fjhzhn.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/genshin_assets_all.bundle",
+      "blob": "shpopwsdgsxojigbqnca.bin",
+      "size": 1617951,
+      "sha256": "e0c8d81ec94420090d0d82c1400cde437ddac950bba3533f0435d6db30758e1c",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/shpopwsdgsxojigbqnca.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/hanami_assets_all.bundle",
+      "blob": "5przmkrqv4mudm7omhff.bin",
+      "size": 21830252,
+      "sha256": "97e4a4537cd63854f592ba2cce618728d70568c8e068841b1a391c7495c8b2ca",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/5przmkrqv4mudm7omhff.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/impostormonth_2026_assets_all.bundle",
+      "blob": "j3vddjb3rha6mkzdvfin.bin",
+      "size": 8558,
+      "sha256": "c9534ca56bd3d176244bec4c58beb84527cf855e9cf5b60b7f7e07119d2151db",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/j3vddjb3rha6mkzdvfin.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/initialcosmetics_assets_all.bundle",
+      "blob": "il76f44j3r23ujeourw4.bin",
+      "size": 207653284,
+      "sha256": "a7d4fb989bb0cb5d74c64236b02d601b100ed78bed97abcc1c88cd81052f7939",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/il76f44j3r23ujeourw4.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/initialmaps_assets_all.bundle",
+      "blob": "vl6sosn6tczc5jfzfxtm.bin",
+      "size": 148565768,
+      "sha256": "204fc4bde5ac246e7aaa223c571095cd72721511d41514b0c5f3361638407082",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/vl6sosn6tczc5jfzfxtm.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/kamurocho_assets_all.bundle",
+      "blob": "2u4cs2go4xd5zteuwk6w.bin",
+      "size": 32729790,
+      "sha256": "b0a4996c4cd46538ba22b975f6a3f99c671f6aad805ad01c99cad42a7a21d5f6",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/2u4cs2go4xd5zteuwk6w.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/nye2025_assets_all.bundle",
+      "blob": "qfkkgypthyqhdo2sollo.bin",
+      "size": 40727,
+      "sha256": "f4553f2266bcd3b67441b4d3f08d66b9f8b9f340d7a1f670eb11e7f7c68f54d7",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/qfkkgypthyqhdo2sollo.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/nye2026_assets_all.bundle",
+      "blob": "vrl27h36hgtkdmbpqorw.bin",
+      "size": 34543,
+      "sha256": "c47485635be935204e5d8c261f183fe8260758ef1372e218415c764ad932d725",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/vrl27h36hgtkdmbpqorw.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/pawsnclaws_assets_all.bundle",
+      "blob": "ai6eiecfzl7cmlbezala.bin",
+      "size": 28493197,
+      "sha256": "bc2ea8abbc538423aedb6f68da56ff85d294be6e59fa208a19980aa06d8c900d",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ai6eiecfzl7cmlbezala.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/phoenixwright_assets_all.bundle",
+      "blob": "zn6mz43xl7wcqgeuu4pm.bin",
+      "size": 1187977,
+      "sha256": "a550d368359c58ea73f2e7dacf5e705b37cca6fc94e18c6c6a9eb79b88fc41b9",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/zn6mz43xl7wcqgeuu4pm.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/projectparasitecubea_assets_all.bundle",
+      "blob": "yifzzpte2t5r5t24qh35.bin",
+      "size": 8585845,
+      "sha256": "667c409a60069ebb0d66a26bbc136e7a6807c48730315bfd8ede5f3e6c80c814",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/yifzzpte2t5r5t24qh35.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/projectparasitecubeb_assets_all.bundle",
+      "blob": "akt5yfeewrnpimyjqzw4.bin",
+      "size": 18593227,
+      "sha256": "22bc28a97e5969bc1955b35806d0fefedcfd4e999c6c9d2a7e446de90cbe9594",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/akt5yfeewrnpimyjqzw4.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/racingcubea_assets_all.bundle",
+      "blob": "hh35i5ijwvd3247dskhn.bin",
+      "size": 7436514,
+      "sha256": "cce4b7480268f8d88d7cc0b9822467782bf6fe86d899472a03805745356f5607",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/hh35i5ijwvd3247dskhn.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/racingcubeb_assets_all.bundle",
+      "blob": "pzbqao43ucdi3am5fkrh.bin",
+      "size": 18346733,
+      "sha256": "f97e995191085c5464d629fdd4b1fabab30445f86f06b8cb6cccdcb9edb94981",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/pzbqao43ucdi3am5fkrh.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/referencedatagroup_assets_all_320c85f5292e8c3d98eff4ef6c218ef3.bundle",
+      "blob": "ycxdjnvu4bq47hrh5dyi.bin",
+      "size": 2288712,
+      "sha256": "08fc5f3149e94f3ad0ef9cb1c77b29772ab02a9af6d7e5ae62bb4a557302efc7",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ycxdjnvu4bq47hrh5dyi.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/stardewa_assets_all.bundle",
+      "blob": "vgwl4yo2koqouhz5uuly.bin",
+      "size": 6063181,
+      "sha256": "bede9726a7c032e0a10608a073bd27dc910a8196aa9646bbacf258b9caa415c0",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/vgwl4yo2koqouhz5uuly.bin"
+    },
+    {
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/stardewb_assets_all.bundle",
+      "blob": "j6xmokbxs5pdqbowlkci.bin",
+      "size": 18809212,
+      "sha256": "8f353fcc94ad2483c89901f6c5e166d6f0dcf38bdf3a4bf01c2a7b2bc60d45d6",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/j6xmokbxs5pdqbowlkci.bin"
+    },
+    {
+      "path": "Among Us_Data/il2cpp_data/Metadata/global-metadata.dat",
+      "blob": "4spaqeksfzcxkrqmpgyl.bin",
+      "size": 16447160,
+      "sha256": "a716c9700bff36fa2168b882b4efb54df04950ad1d19af6693809cbfd612f574",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/4spaqeksfzcxkrqmpgyl.bin"
+    },
+    {
+      "path": "Among Us_Data/il2cpp_data/Resources/Sentry.System.Buffers.dll-resources.dat",
+      "blob": "z2nuedl7k4hd5ajtursa.bin",
+      "size": 394,
+      "sha256": "439209737decff0ed26e04cd94c5a7839d9a16438881af6f457b22dabd9b3de9",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/z2nuedl7k4hd5ajtursa.bin"
+    },
+    {
+      "path": "Among Us_Data/il2cpp_data/Resources/Sentry.System.Collections.Immutable.dll-resources.dat",
+      "blob": "igazm5jh2hfciwaky2hn.bin",
+      "size": 1636,
+      "sha256": "cdeda19448b3c583d912ff379e24c5e390e088a91d6e92a2fbef9042c1a1c85a",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/igazm5jh2hfciwaky2hn.bin"
+    },
+    {
+      "path": "Among Us_Data/il2cpp_data/Resources/Sentry.System.Memory.dll-resources.dat",
+      "blob": "6jtxyv5bw7nenk2q3dya.bin",
+      "size": 1811,
+      "sha256": "7b1e50a9a2f05306435e6994a381a4adffbe78a4fdaf6bf62e8904d0748ed5f1",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/6jtxyv5bw7nenk2q3dya.bin"
+    },
+    {
+      "path": "Among Us_Data/il2cpp_data/Resources/Sentry.System.Numerics.Vectors.dll-resources.dat",
+      "blob": "ajjelxmqm5ga7p2vcch5.bin",
+      "size": 856,
+      "sha256": "612c2191dd0e28faf0c0da0fc0f68258a911037d12b97afe44bf40d62066e381",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/ajjelxmqm5ga7p2vcch5.bin"
+    },
+    {
+      "path": "Among Us_Data/il2cpp_data/Resources/Sentry.System.Reflection.Metadata.dll-resources.dat",
+      "blob": "iqndzbo65hl7o3uqvueu.bin",
+      "size": 12046,
+      "sha256": "849cee364e824415bbf9667d078cba28b49c1f9e293b7bd73a37c60633135624",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/iqndzbo65hl7o3uqvueu.bin"
+    },
+    {
+      "path": "Among Us_Data/il2cpp_data/Resources/Sentry.System.Text.Encodings.Web.dll-resources.dat",
+      "blob": "uaf6qsmho4ez5u2v2mcv.bin",
+      "size": 435,
+      "sha256": "92b408fe6fb1381f4d001dc78cc94d35d3cbb36314fa61b70083fdc01bbafb1d",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/uaf6qsmho4ez5u2v2mcv.bin"
+    },
+    {
+      "path": "Among Us_Data/il2cpp_data/Resources/Sentry.System.Text.Json.dll-resources.dat",
+      "blob": "j4vjwpqohjcygwahezsq.bin",
+      "size": 22517,
+      "sha256": "3e5838654142e4287659f516fdc357029dc17c83e43b9bf105b23ba77c72768d",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/j4vjwpqohjcygwahezsq.bin"
+    },
+    {
+      "path": "Among Us_Data/il2cpp_data/Resources/System.Data.dll-resources.dat",
+      "blob": "qfmklzwbdhkqsggeifk3.bin",
+      "size": 93718,
+      "sha256": "98a7950ec6de3242c2e190dfa630188dfa32511a125542b94baa952d1c757d49",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/qfmklzwbdhkqsggeifk3.bin"
+    },
+    {
+      "path": "Among Us_Data/il2cpp_data/Resources/System.Drawing.dll-resources.dat",
+      "blob": "37dvbjhnfvfx2ll472vq.bin",
+      "size": 25453,
+      "sha256": "7c33aa707bc3fdc83991b81a97d6fc622b140762a767300f08f616c2c0a91255",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/37dvbjhnfvfx2ll472vq.bin"
+    },
+    {
+      "path": "Among Us_Data/il2cpp_data/Resources/mscorlib.dll-resources.dat",
+      "blob": "25ia7avughymeml63cx4.bin",
+      "size": 337563,
+      "sha256": "c5baa176a5b72cd545266340e42102d393a5e43d38c95796bc828918bb95277f",
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/25ia7avughymeml63cx4.bin"
+    }
+  ],
+  "empty_dirs": [],
+  "base_url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I"
+}
