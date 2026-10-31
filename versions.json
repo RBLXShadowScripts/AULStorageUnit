@@ -4,7 +4,12 @@
     {
       "version": "19I",
       "manifest": "manifest-19I.json",
-      "date": "2026-10-30T09:07:08Z"
+      "date": "2026-10-31T17:15:18Z"
+    },
+    {
+      "version": "18I",
+      "manifest": "manifest-18I.json",
+      "date": "2026-10-31T17:25:40Z"
     }
   ]
 }
