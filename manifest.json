@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "version": "17.2.2I",
-  "generated_at": "2026-11-08T13:29:12Z",
-  "file_count": 95,
-  "total_size": 1001424573,
-  "download_total": 528014265,
+  "version": "17.2.1I",
+  "generated_at": "2026-11-08T13:58:54Z",
+  "file_count": 101,
+  "total_size": 1021240096,
+  "download_total": 546785445,
   "files": [
     {
       "path": "Among Us.exe",
@@ -17,12 +17,12 @@
     },
     {
       "path": "GameAssembly.dll",
-      "blob": "gsbqmwjfqk52vhqehslm.xz",
-      "size": 47908864,
-      "sha256": "67d4b9706c47a88488f824509aa5829c18d4a7f12f320451e58d6ddb3bae6683",
+      "blob": "6hgj46cdzaxf7be536iy.xz",
+      "size": 47890944,
+      "sha256": "bd4a37407fc81c259da5261f0b45a615bf849d730209705b04b05975d6682218",
       "compression": "xz",
-      "download_size": 11900176,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/gsbqmwjfqk52vhqehslm.xz"
+      "download_size": 11897772,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/6hgj46cdzaxf7be536iy.xz"
     },
     {
       "path": "UnityCrashHandler32.exe",
@@ -58,7 +58,7 @@
       "sha256": "ae0fa193d2208582d2199eeed842535235c878fc8f91abf6aea021d44b1822e8",
       "compression": "xz",
       "download_size": 704,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/54h66caal2fbt2k2jhty.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/54h66caal2fbt2k2jhty.xz"
     },
     {
       "path": "Among Us_Data/ScriptingAssemblies.json",
@@ -67,7 +67,7 @@
       "sha256": "1ad016fb4d28c6ec6de6a2efb982123e230f1b9472130e37757187d6e7d13a68",
       "compression": "xz",
       "download_size": 1200,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/243c25dlwedlapxqpym4.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/243c25dlwedlapxqpym4.xz"
     },
     {
       "path": "Among Us_Data/app.info",
@@ -80,21 +80,21 @@
     },
     {
       "path": "Among Us_Data/boot.config",
-      "blob": "chfc7eibhctdbtgsgs4e.bin",
+      "blob": "ak7oqtrgt54hadjqlggt.bin",
       "size": 93,
-      "sha256": "eb673ab1102328b675de57378dd957d1ae04516f088a175eac08207dd315f9ee",
+      "sha256": "060d14f3e9e09a72698032a4e6ee9080b630be5168ce1388033a4910b51c3add",
       "compression": "none",
       "download_size": 93,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/chfc7eibhctdbtgsgs4e.bin"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/ak7oqtrgt54hadjqlggt.bin"
     },
     {
       "path": "Among Us_Data/globalgamemanagers",
-      "blob": "r7j2x626h5ankyve54p2.xz",
+      "blob": "ra2xrzsnpttu3srl7shh.xz",
       "size": 234380,
-      "sha256": "6cb7494e7c09831e899d717128246226076ab7ab7e8f9678ea18d5bdf7cd73ef",
+      "sha256": "1d2231635ecae72fb44cfb8bbfa90f84eb1a2ca3801f25d9c9c782987eead885",
       "compression": "xz",
-      "download_size": 94820,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/r7j2x626h5ankyve54p2.xz"
+      "download_size": 94608,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/ra2xrzsnpttu3srl7shh.xz"
     },
     {
       "path": "Among Us_Data/globalgamemanagers.assets",
@@ -103,7 +103,7 @@
       "sha256": "e88f13f4f7e08c05788e5d9b4a0cd02b21071a2696aeeba7c68baa358e3ddfc6",
       "compression": "xz",
       "download_size": 76672,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/5k5chhookeggbvox3m5s.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/5k5chhookeggbvox3m5s.xz"
     },
     {
       "path": "Among Us_Data/globalgamemanagers.assets.resS",
@@ -121,7 +121,7 @@
       "sha256": "8964d4e11adad255144f634113c66a43fb624a4151d1afaf249bda6a8f50ad75",
       "compression": "xz",
       "download_size": 636,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/dfpdfb6tbw5yo76y2ula.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/dfpdfb6tbw5yo76y2ula.xz"
     },
     {
       "path": "Among Us_Data/level1",
@@ -130,16 +130,16 @@
       "sha256": "372af0dc24d415260a9af5db1652d37acf6c20454938e107a8413e37ba5088d1",
       "compression": "xz",
       "download_size": 11988,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/2jjvb2orcfgsarmq3suv.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/2jjvb2orcfgsarmq3suv.xz"
     },
     {
       "path": "Among Us_Data/level2",
-      "blob": "sqphdpmss77geqps5md2.xz",
-      "size": 1816272,
-      "sha256": "4e7d7f8fad19d87358e0613ef8de9b7f109825f4a0242e352c14372243c9146e",
+      "blob": "bp3gz7okl5hs2bdzx4pw.xz",
+      "size": 1816312,
+      "sha256": "e0b4beb7a06d83e2b69d7d3f5320aee7fec5a589e3a3894a70414b03745c80b7",
       "compression": "xz",
-      "download_size": 154852,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/sqphdpmss77geqps5md2.xz"
+      "download_size": 154508,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/bp3gz7okl5hs2bdzx4pw.xz"
     },
     {
       "path": "Among Us_Data/level3",
@@ -148,7 +148,7 @@
       "sha256": "265826a464ffd4e5bd9e9b5bd240583a453c975f2dd35365866ef2c3a7ae1200",
       "compression": "xz",
       "download_size": 6660,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/x4yp6mljwwxahc3svo5a.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/x4yp6mljwwxahc3svo5a.xz"
     },
     {
       "path": "Among Us_Data/level4",
@@ -157,7 +157,7 @@
       "sha256": "8ca437183e4420967778de854e605524600d5c3d720dd3f96c9e172d6fabb8ad",
       "compression": "xz",
       "download_size": 55432,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/kl7v762gsrzpriw37cdl.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/kl7v762gsrzpriw37cdl.xz"
     },
     {
       "path": "Among Us_Data/level5",
@@ -166,7 +166,7 @@
       "sha256": "82ff9300e1fed3974982b0576d0f4967862c9241499115dd7e0642f32a8c6c6e",
       "compression": "xz",
       "download_size": 56132,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/mefhckta35syk6fdwi62.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/mefhckta35syk6fdwi62.xz"
     },
     {
       "path": "Among Us_Data/level6",
@@ -175,7 +175,7 @@
       "sha256": "6f4c09ce41dfc59dd309f3db28512a95d42ded6be82a6e3e84b076e4350a435d",
       "compression": "xz",
       "download_size": 7504,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/pemunv2pyddtdmmgrtei.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/pemunv2pyddtdmmgrtei.xz"
     },
     {
       "path": "Among Us_Data/level7",
@@ -184,7 +184,7 @@
       "sha256": "42b2851a3d9b7947a76e8115cd626a13bf4fb3261ab456efcd41650cc0ba83e5",
       "compression": "xz",
       "download_size": 21712,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/zk6krqxr4ijehk2csczr.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/zk6krqxr4ijehk2csczr.xz"
     },
     {
       "path": "Among Us_Data/level8",
@@ -193,7 +193,7 @@
       "sha256": "eae000f601b6315111c268d94a2cf68eff130227482e5dc4bb0b428d68480afd",
       "compression": "xz",
       "download_size": 24100,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/ymwfi7adfujbxgmuzffq.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/ymwfi7adfujbxgmuzffq.xz"
     },
     {
       "path": "Among Us_Data/level9",
@@ -202,7 +202,7 @@
       "sha256": "5565fbe6631cc32a998ae3b29aaf6bcfcbfddf400ddd79651ca67eac378fedfb",
       "compression": "xz",
       "download_size": 16396,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/krplkpjugr6o3btttutt.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/krplkpjugr6o3btttutt.xz"
     },
     {
       "path": "Among Us_Data/resources.assets",
@@ -211,7 +211,7 @@
       "sha256": "83ceb4160b2fcbfffb65d7101bf03e642c29324648b5b27d55c388e999e07a57",
       "compression": "xz",
       "download_size": 11024252,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/4dmf2nncvfboven5py3g.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/4dmf2nncvfboven5py3g.xz"
     },
     {
       "path": "Among Us_Data/resources.assets.resS",
@@ -220,7 +220,7 @@
       "sha256": "a2702360125098f9585b2f72c15f132020b68f2b4fa2b080c3b9f5f380214c09",
       "compression": "xz",
       "download_size": 2741472,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/5kvq23qwndzlb6lmiks4.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/5kvq23qwndzlb6lmiks4.xz"
     },
     {
       "path": "Among Us_Data/resources.resource",
@@ -238,16 +238,16 @@
       "sha256": "264963e99fdce9c3c76b49fe042a3cff5898aa3b77633344f9ffd33f4e552939",
       "compression": "xz",
       "download_size": 333056,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/mb3k6itscpkzdebpm2qw.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/mb3k6itscpkzdebpm2qw.xz"
     },
     {
       "path": "Among Us_Data/sharedassets1.assets",
-      "blob": "qez27m3acgspvuo22epv.xz",
+      "blob": "e6zvzsg6veazuthhgw2p.xz",
       "size": 181080,
-      "sha256": "8ebba3fdaaf5897e66f5e6a18923ad7602ae440f182631eedf1af8f90891ad2d",
+      "sha256": "bc7b48898a9f5605a5fe0f95aeb3e9a05aea9c310d2772465111ad26ce579e60",
       "compression": "xz",
-      "download_size": 29784,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/qez27m3acgspvuo22epv.xz"
+      "download_size": 29772,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/e6zvzsg6veazuthhgw2p.xz"
     },
     {
       "path": "Among Us_Data/sharedassets1.assets.resS",
@@ -269,12 +269,12 @@
     },
     {
       "path": "Among Us_Data/sharedassets2.assets",
-      "blob": "b4vxsdidybu63pcdeohp.xz",
+      "blob": "irvyvhcbvjloafmc3m7x.xz",
       "size": 10960468,
-      "sha256": "0111651c7ad36dd3642c302bb1af56375495a81c10c30eecb89e4b0164bf8097",
+      "sha256": "10d1fd928d856f36921c84a2f5fb257e6af1c9010644378bd151e01a566d27cb",
       "compression": "xz",
-      "download_size": 1563268,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/b4vxsdidybu63pcdeohp.xz"
+      "download_size": 1563400,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/irvyvhcbvjloafmc3m7x.xz"
     },
     {
       "path": "Among Us_Data/sharedassets2.assets.resS",
@@ -283,16 +283,16 @@
       "sha256": "54261353d4584456dbf668c2ea434f5f3d26cae82901987e1e716f4466b5d202",
       "compression": "xz",
       "download_size": 12524100,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/sbzpqqij4j2uu7c26ema.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/sbzpqqij4j2uu7c26ema.xz"
     },
     {
       "path": "Among Us_Data/sharedassets2.resource",
-      "blob": "epkrqcso5ttxiee4oujy.bin",
-      "size": 38541440,
-      "sha256": "1f91da59da7788a9e7ff4b19b9a6d131f30b39676033c7e9ef9142c664834d37",
+      "blob": "fhqdm3a2x5btuomkemir.bin",
+      "size": 38541376,
+      "sha256": "ee3a2b6fe03b5fd768c761156f6cc8beb490345b6c4c87fae7d70b12affacb09",
       "compression": "none",
-      "download_size": 38541440,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/epkrqcso5ttxiee4oujy.bin"
+      "download_size": 38541376,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/fhqdm3a2x5btuomkemir.bin"
     },
     {
       "path": "Among Us_Data/sharedassets3.assets",
@@ -301,7 +301,7 @@
       "sha256": "9ae361623edc75f4d81b705b9579dfa70bb4edb52242153222c9364d88e31d7c",
       "compression": "xz",
       "download_size": 5900,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/fz2kswlwweiqvnjzwiw3.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/fz2kswlwweiqvnjzwiw3.xz"
     },
     {
       "path": "Among Us_Data/sharedassets4.assets",
@@ -310,7 +310,7 @@
       "sha256": "7c1847c085c5322ab3834d82857827719fe0ebdab0838ceb45cbf1eb4f268e30",
       "compression": "xz",
       "download_size": 214052,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/iciume3kvmzcc7hsyugq.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/iciume3kvmzcc7hsyugq.xz"
     },
     {
       "path": "Among Us_Data/sharedassets4.assets.resS",
@@ -319,7 +319,7 @@
       "sha256": "6c5b49ba4c486289169a9b2b3c0ab8b832612559895a40bb2e82624730eb77c1",
       "compression": "xz",
       "download_size": 2176848,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/lbghtzzwx6hi76mq653a.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/lbghtzzwx6hi76mq653a.xz"
     },
     {
       "path": "Among Us_Data/sharedassets4.resource",
@@ -328,7 +328,7 @@
       "sha256": "c31d7904a71dc00eb4579495affc7e1665fa7231f334aa5af5599a966d813531",
       "compression": "none",
       "download_size": 2144256,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/p7bgzy5n46ag6z7qzelv.bin"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/p7bgzy5n46ag6z7qzelv.bin"
     },
     {
       "path": "Among Us_Data/sharedassets5.assets",
@@ -337,7 +337,7 @@
       "sha256": "5de67eee9e294f5d1553767fe784a57e5b052ace8494450181d84e18a011f2d7",
       "compression": "xz",
       "download_size": 5768,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/qvwzxyogunszgdkfhmzj.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/qvwzxyogunszgdkfhmzj.xz"
     },
     {
       "path": "Among Us_Data/sharedassets6.assets",
@@ -346,7 +346,7 @@
       "sha256": "89ab44d8a4819b0408307292ededa9b00c917d3cad3e641c15b38916b1bbff09",
       "compression": "xz",
       "download_size": 2316,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/niyk362h5m7h2pf6lr5b.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/niyk362h5m7h2pf6lr5b.xz"
     },
     {
       "path": "Among Us_Data/sharedassets6.resource",
@@ -364,7 +364,7 @@
       "sha256": "3f3ab57173020fa6230708540fd4a7750589d5777a0693528cc1288bacc53086",
       "compression": "xz",
       "download_size": 41756,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/gcksoxnxtqq4fku66ah2.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/gcksoxnxtqq4fku66ah2.xz"
     },
     {
       "path": "Among Us_Data/sharedassets7.assets.resS",
@@ -373,7 +373,7 @@
       "sha256": "1423fc3050dac94852d37fca752cd2a622cdd087d3b4091e5f5c7db5021611ac",
       "compression": "xz",
       "download_size": 1229564,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/wf544ume56leie6yuhfi.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/wf544ume56leie6yuhfi.xz"
     },
     {
       "path": "Among Us_Data/sharedassets8.assets",
@@ -382,7 +382,7 @@
       "sha256": "95379cb82c034b75960209c3f1b6f544ff037476cfc854ef578a0e7da0609c70",
       "compression": "xz",
       "download_size": 7388,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/635d272ynzazsmsh63uz.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/635d272ynzazsmsh63uz.xz"
     },
     {
       "path": "Among Us_Data/sharedassets8.assets.resS",
@@ -391,7 +391,7 @@
       "sha256": "5f3fcf7ad0329776cc45475c9c1c0e7cec22ebdbaab9731bff4d8b3bdb1604c3",
       "compression": "xz",
       "download_size": 177176,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/wv3qkxotjocawt6h7ryh.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/wv3qkxotjocawt6h7ryh.xz"
     },
     {
       "path": "Among Us_Data/sharedassets8.resource",
@@ -409,7 +409,7 @@
       "sha256": "a78bd5b507d16505f19e6acb5683226f0fddfe9a1bec99a3f41c395805aa83bc",
       "compression": "xz",
       "download_size": 212540,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/o3mv5pdnd43md64ycnsr.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/o3mv5pdnd43md64ycnsr.xz"
     },
     {
       "path": "Among Us_Data/sharedassets9.assets.resS",
@@ -418,7 +418,7 @@
       "sha256": "d8d654f23ae57f986e6e6b3c2a15fbca9d06836abd9cc62df8cc82b74f14f5f8",
       "compression": "xz",
       "download_size": 962936,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/hvhclnl3dlnu3yajgea5.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/hvhclnl3dlnu3yajgea5.xz"
     },
     {
       "path": "Among Us_Data/sharedassets9.resource",
@@ -526,25 +526,25 @@
       "sha256": "11c0781bbeaf965be6681321c30774382a1bb78c44b94cb68568a5917bc3fceb",
       "compression": "xz",
       "download_size": 460,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/6wqo42ij3zxoq5p35nwq.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/6wqo42ij3zxoq5p35nwq.xz"
     },
     {
       "path": "Among Us_Data/StreamingAssets/aa/catalog.json",
-      "blob": "tqvws5m27aetwos6dcun.xz",
+      "blob": "cbffqfwovgsi4ai32dbn.xz",
       "size": 1072627,
-      "sha256": "97b32209706327d8aef004f6524367b7c951df946239b08de6be431a8054f36b",
+      "sha256": "bae1dae922901048a98565eb9ef241a5bc2b82cb760a896d89281ae9acb96d11",
       "compression": "xz",
-      "download_size": 175492,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/tqvws5m27aetwos6dcun.xz"
+      "download_size": 175756,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/cbffqfwovgsi4ai32dbn.xz"
     },
     {
       "path": "Among Us_Data/StreamingAssets/aa/settings.json",
-      "blob": "mrobvbqgd57nuakrhfze.xz",
-      "size": 3639,
-      "sha256": "7f02752dd992bd598687eb67e5399d64ce17faf8973e4cbf7c829a7991d9cfcc",
+      "blob": "uvkqnf7mwgapaqdxonjx.xz",
+      "size": 3638,
+      "sha256": "e057b48db7ed9977d49c05b416555722c3c60ca274497e0dd855a6ec012243ab",
       "compression": "xz",
-      "download_size": 1092,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/mrobvbqgd57nuakrhfze.xz"
+      "download_size": 1088,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/uvkqnf7mwgapaqdxonjx.xz"
     },
     {
       "path": "Among Us_Data/StreamingAssets/aa/AddressablesLink/link.xml",
@@ -553,7 +553,7 @@
       "sha256": "4830b937f1d769f9b90dfd395e6d326424f3a4fb643f766b3c65c7d20ac4d1a2",
       "compression": "xz",
       "download_size": 3548,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/3i2t6it5s6i6paajplyq.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/3i2t6it5s6i6paajplyq.xz"
     },
     {
       "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/0e13d00f4e855a64ab6bfe6989b0ff98_unitybuiltinshaders.bundle",
@@ -661,7 +661,7 @@
       "sha256": "34d8a42f0f5e1305a96a08eaa39f277ec55c586c925321ea79ab44f5b10e2c87",
       "compression": "xz",
       "download_size": 157380064,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/jwa6vcnzuee4xwm43jlh.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/jwa6vcnzuee4xwm43jlh.xz"
     },
     {
       "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/initialmaps_assets_all.bundle",
@@ -670,7 +670,7 @@
       "sha256": "0d8800a3880f78e8c237479280ecb4e0339c07bc20b7d963c389714ef5187d48",
       "compression": "xz",
       "download_size": 113293924,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/2twte6lqxvouzclph62d.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/2twte6lqxvouzclph62d.xz"
     },
     {
       "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/kamurocho_assets_all.bundle",
@@ -736,13 +736,13 @@
       "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/pzbqao43ucdi3am5fkrh.xz"
     },
     {
-      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/referencedatagroup_assets_all_81e3b7f0d3112fc576177b9a66b7b1d3.bundle",
-      "blob": "hu5ch23fe3ksbmmw3bpi.xz",
+      "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/referencedatagroup_assets_all_9f02457c7c175b1ee21092cc29dd5801.bundle",
+      "blob": "ovnp3tp2ea77sre2sk75.xz",
       "size": 2241051,
-      "sha256": "625ca9ac523ee440eb65768d3a04760539e82e6002bca3e4e80d29d99ebc329a",
+      "sha256": "fdfae73225e71a5bf0563074589a2bd6eefb9be8047adaf7a48e4e7bb1316a6a",
       "compression": "xz",
       "download_size": 1791736,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/hu5ch23fe3ksbmmw3bpi.xz"
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/ovnp3tp2ea77sre2sk75.xz"
     },
     {
       "path": "Among Us_Data/StreamingAssets/aa/Itch/StandaloneWindows/stardewa_assets_all.bundle",
@@ -764,12 +764,12 @@
     },
     {
       "path": "Among Us_Data/il2cpp_data/Metadata/global-metadata.dat",
-      "blob": "ktda2blm7akmxmognbcg.xz",
-      "size": 16407004,
-      "sha256": "145265341ed52ef81cfa93acb564a092721bfc9d7c1602924ed74c89ed2dd73a",
+      "blob": "djfquatbobharglf3uek.xz",
+      "size": 16407024,
+      "sha256": "41c801c2dc104f10b98fb9f253f0d4562242d809632adbbb7ecea100d8c3d4b5",
       "compression": "xz",
-      "download_size": 2877148,
-      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I/ktda2blm7akmxmognbcg.xz"
+      "download_size": 2878360,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/djfquatbobharglf3uek.xz"
     },
     {
       "path": "Among Us_Data/il2cpp_data/Resources/Sentry.System.Buffers.dll-resources.dat",
@@ -860,8 +860,62 @@
       "compression": "xz",
       "download_size": 110140,
       "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/19I/25ia7avughymeml63cx4.xz"
+    },
+    {
+      "path": "Redist/dotNetFx40_Full_setup.exe",
+      "blob": "nplb7y6apmst6tsrmgty.xz",
+      "size": 889416,
+      "sha256": "fa1afff978325f8818ce3a559d67a58297d9154674de7fd8eb03656d93104425",
+      "compression": "xz",
+      "download_size": 782648,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/nplb7y6apmst6tsrmgty.xz"
+    },
+    {
+      "path": "Redist/dxwebsetup.exe",
+      "blob": "pirkv5cckfmsmfmbezcl.xz",
+      "size": 288088,
+      "sha256": "111aeddc6a6dbf64b28cb565aa12af9ee3cc0a56ce31e4da0068cf6b474c3288",
+      "compression": "xz",
+      "download_size": 249124,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/pirkv5cckfmsmfmbezcl.xz"
+    },
+    {
+      "path": "Redist/oalinst.exe",
+      "blob": "p7xa73r26poqpzpbt5mu.xz",
+      "size": 809496,
+      "sha256": "b8f39714d41e009f75efb183c37100f2cbabb71784bbd243be881ac5b42d86fd",
+      "compression": "xz",
+      "download_size": 576516,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/p7xa73r26poqpzpbt5mu.xz"
+    },
+    {
+      "path": "Redist/vcredist_x64.exe",
+      "blob": "sgacmsu4jdh4sprhdrf4.bin",
+      "size": 5718872,
+      "sha256": "b06546ddc8ca1e3d532f3f2593e88a6f49e81b66a9c2051d58508cc97b6a2023",
+      "compression": "none",
+      "download_size": 5718872,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/sgacmsu4jdh4sprhdrf4.bin"
+    },
+    {
+      "path": "Redist/vcredist_x86.exe",
+      "blob": "hchzglmblizhvefq44la.bin",
+      "size": 5073240,
+      "sha256": "8162b2d665ca52884507ede19549e99939ce4ea4a638c537fa653539819138c8",
+      "compression": "none",
+      "download_size": 5073240,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/hchzglmblizhvefq44la.bin"
+    },
+    {
+      "path": "Redist/xnafx40_redist.msi",
+      "blob": "33hywamipww7ns4dcauy.xz",
+      "size": 7054336,
+      "sha256": "e6c41d692ebcba854dad4b1c52bb7ddd05926bad3105595d6596b8bab01c25e7",
+      "compression": "xz",
+      "download_size": 6372212,
+      "url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I/33hywamipww7ns4dcauy.xz"
     }
   ],
   "empty_dirs": [],
-  "base_url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.2I"
+  "base_url": "https://github.com/RBLXShadowScripts/AULStorageUnit/releases/download/17.2.1I"
 }
