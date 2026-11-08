@@ -230,6 +230,7 @@ jobs:
             echo "manifests unchanged, nothing to commit"
           else
             git commit -m "blob press ran, manifest now on $VER"
+            git pull --rebase --quiet origin "$GITHUB_REF_NAME"
             git push origin "HEAD:$GITHUB_REF_NAME"
           fi
 
