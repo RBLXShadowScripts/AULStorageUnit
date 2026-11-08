@@ -1,0 +1,261 @@
+name: Blob Delivery Service
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "version for this run (becomes the release tag AND the manifest-<ver>.json name)"
+        type: string
+        required: true
+      source:
+        description: "where the game zip comes from"
+        type: choice
+        required: true
+        default: "api (pull the latest from itch)"
+        options:
+          - "api (pull the latest from itch)"
+          - "link (direct url, for older builds)"
+      link:
+        description: "direct download url. ONLY used when source is 'link', ignored otherwise"
+        type: string
+        required: false
+      mark_as_latest:
+        description: "make this the newest version in versions.json (uncheck when re-pushing an old one)"
+        type: boolean
+        required: false
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: blob-delivery
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      VER: ${{ inputs.version }}
+      SOURCE: ${{ inputs.source }}
+      LINK: ${{ inputs.link }}
+      LINK_MODE: ${{ startsWith(inputs.source, 'link') }}
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: check what you picked, capture what 'latest' is today
+        shell: python
+        run: |
+          import json, os, re, sys
+
+          ver = os.environ["VER"].strip()
+          if not ver:
+              sys.exit("you left the version box empty, it has to be something")
+          if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*", ver):
+              sys.exit(
+                  f"version looks weird ({ver!r}). spaces and most symbols aren't allowed "
+                  "because it has to work as a release tag and a manifest name. "
+                  "letter/number first, then letters, numbers, dots, dashes or underscores."
+              )
+
+          if os.environ.get("LINK_MODE") == "true":
+              link = os.environ.get("LINK", "").strip()
+              if not link:
+                  sys.exit("you picked the link option but left the link box empty")
+              print("::add-mask::" + link)
+              source = "link"
+          else:
+              link = ""
+              source = "api"
+
+          if not os.path.isfile("manifest-19I.json"):
+              sys.exit("manifest-19I.json is missing from the repo, it is the base for the don't-re-upload trick")
+
+          with open("versions.json", encoding="utf-8-sig") as f:
+              base_latest = json.load(f).get("latest", "")
+
+          with open(os.environ["GITHUB_ENV"], "a") as f:
+              f.write(f"VER={ver}\n")
+              f.write(f"SOURCE={source}\n")
+              f.write(f"DL_URL={link}\n")
+              f.write(f"BASE_LATEST={base_latest}\n")
+          print("version:", ver, "| source:", source, "| latest currently points at:", base_latest)
+
+      - name: ask the api where the build is
+        if: env.SOURCE == 'api'
+        shell: python
+        env:
+          STUPID_LINK: ${{ secrets.StupidDownloadlink }}
+        run: |
+          import json, os, sys, urllib.error, urllib.request
+
+          req = urllib.request.Request(
+              os.environ["STUPID_LINK"].strip(),
+              headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"},
+          )
+          try:
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  body = r.read().decode("utf-8")
+          except urllib.error.HTTPError as e:
+              sys.exit(f"endpoint said no (http {e.code})")
+          except Exception as e:
+              sys.exit(f"couldn't reach the endpoint ({type(e).__name__})")
+
+          try:
+              data = json.loads(body)
+          except ValueError:
+              sys.exit("endpoint didn't send json back")
+
+          dl = data.get("download_url")
+          if not data.get("ok") or not dl:
+              sys.exit(f"endpoint answered but there's no download link (ok={data.get('ok')})")
+
+          print("::add-mask::" + str(dl))
+          if data.get("key"):
+              print("::add-mask::" + str(data["key"]))
+
+          print("itch says:", data.get("version"), "|", data.get("timestamp"))
+          print("api calls left in this window:", (data.get("rate") or {}).get("remaining"))
+
+          with open(os.environ["GITHUB_ENV"], "a") as f:
+              f.write("DL_URL=" + str(dl) + "\n")
+
+      - name: download the game
+        run: |
+          curl -fL -sS --retry 4 --retry-delay 15 --retry-all-errors -o payload.bin "$DL_URL"
+          bytes=$(stat -c %s payload.bin)
+          echo "got $((bytes / 1048576)) MB"
+          if [ "$bytes" -lt 52428800 ]; then
+            echo "that's way too small to be the game, probably an error page"
+            exit 1
+          fi
+
+      - name: open it up (zip, rar, whatever it is)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq p7zip-full > /dev/null
+          7z x payload.bin -oraw -y > "$RUNNER_TEMP/unpack.log" || { tail -n 15 "$RUNNER_TEMP/unpack.log"; exit 1; }
+          rm payload.bin
+          echo "unpacked"
+
+      - name: find the folder with Among Us.exe
+        shell: python
+        run: |
+          import os, sys
+
+          hits = []
+          for root, dirs, files in os.walk("raw"):
+              if any(f.lower() == "among us.exe" for f in files):
+                  hits.append(root)
+          if not hits:
+              sys.exit("no Among Us.exe anywhere inside that download")
+
+          hits.sort(key=lambda p: p.count(os.sep))
+          game = os.path.abspath(hits[0])
+          if len(hits) > 1:
+              print(f"found {len(hits)} folders with the exe, taking the shallowest")
+
+          print("game folder:", os.path.relpath(game, "raw"))
+
+          with open(os.environ["GITHUB_ENV"], "a") as f:
+              f.write("GAME_DIR=" + game.replace("\\", "/") + "\n")
+
+      - name: build the manifest and the new blobs
+        shell: python
+        env:
+          SEED: ${{ secrets.BlobFatherSeed }}
+        run: |
+          import os, subprocess, sys, tempfile
+
+          seed = os.environ["SEED"].strip()
+          if not seed:
+              sys.exit("the seed secret is empty")
+
+          out = os.path.join(tempfile.mkdtemp(dir=os.environ["RUNNER_TEMP"]), "press")
+
+          cmd = [
+              sys.executable, "tools/generate_release.py",
+              "--input", os.environ["GAME_DIR"],
+              "--output", out,
+              "--seed", seed,
+              "--version", os.environ["VER"],
+              "--base-url", f"https://github.com/{os.environ['GITHUB_REPOSITORY']}/releases/download/{os.environ['VER']}",
+              "--previous", "manifest-19I.json",
+              "--versions-file", "versions.json",
+          ]
+          result = subprocess.run(cmd)
+          if result.returncode != 0:
+              sys.exit("generator said no (see its output above)")
+
+          with open(os.environ["GITHUB_ENV"], "a") as f:
+              f.write("PRESS_DIR=" + out + "\n")
+
+      - name: drop the manifests in the repo, respect the latest checkbox
+        shell: python
+        env:
+          MARK_LATEST: ${{ inputs.mark_as_latest }}
+        run: |
+          import shutil, os
+
+          press, ver = os.environ["PRESS_DIR"], os.environ["VER"]
+          safe = "".join(c if (c.isalnum() or c in ".-_") else "_" for c in ver)
+
+          shutil.copyfile(os.path.join(press, "manifest.json"), "manifest.json")
+          shutil.copyfile(os.path.join(press, f"manifest-{safe}.json"), f"manifest-{safe}.json")
+          shutil.copyfile(os.path.join(press, "versions.json"), "versions.json")
+
+          if os.environ.get("MARK_LATEST") != "true":
+              import json
+              with open("versions.json", encoding="utf-8") as f:
+                  d = json.load(f)
+              old = os.environ["BASE_LATEST"]
+              d["latest"] = old
+              with open("versions.json", "w", encoding="utf-8") as f:
+                  json.dump(d, f, indent=2)
+              print(f"old version rerun: latest stays on {old}")
+
+          with open(os.environ["GITHUB_ENV"], "a") as f:
+              f.write(f"SAFE_VER={safe}\n")
+
+      - name: commit the manifests
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json "manifest-$SAFE_VER.json" versions.json
+          if git diff --cached --quiet; then
+            echo "manifests unchanged, nothing to commit"
+          else
+            git commit -m "blob press ran, manifest now on $VER"
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          fi
+
+      - name: make sure the version you picked exists as a release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$VER" > /dev/null 2>&1; then
+            echo "release $VER already exists, blobs with matching names get overwritten (same name can only mean same bytes)"
+          else
+            gh release create "$VER" --title "AUL Storage $VER" --notes ""
+            echo "opened a fresh release for $VER"
+          fi
+
+      - name: upload the new blobs only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          count=$(ls "$PRESS_DIR/blobs" | wc -l)
+          echo "$count blob(s) are new or changed since 19I"
+          if [ "$count" -eq 0 ]; then
+            echo "nothing to upload, every blob is already online"
+            exit 0
+          fi
+          gh release upload "$VER" "$PRESS_DIR"/blobs/* --clobber
+
+      - name: poke every link to make sure they all answer
+        run: |
+          python tools/check_links.py --manifest "manifest-$SAFE_VER.json"
