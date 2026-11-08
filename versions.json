@@ -10,6 +10,11 @@
       "version": "18I",
       "manifest": "manifest-18I.json",
       "date": "2026-10-31T17:25:40Z"
+    },
+    {
+      "version": "17.4I",
+      "manifest": "manifest-17.4I.json",
+      "date": "2026-11-08T11:23:18Z"
     }
   ]
 }
