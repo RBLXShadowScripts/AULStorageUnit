@@ -1,0 +1,14 @@
+{
+  "mods": [
+    {
+      "id": "BepInEx",
+      "name": "BepInEx (IL2CPP)",
+      "author": "BepInEx team",
+      "description": "The mod loader every plugin needs. Its proxy loads BepInEx when the game starts, and plugins live in BepInEx/plugins.",
+      "github": "BepInEx/BepInEx",
+      "category": "dependency",
+      "asset": { "patterns": ["BepInEx-Unity.IL2CPP-win-x64"], "exclude": ["x86"] },
+      "package": "nested"
+    }
+  ]
+}
