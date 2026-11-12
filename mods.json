@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-11T04:42:00Z",
+  "updated": "2026-11-12T08:50:05Z",
   "source": "github.com/rewalo/BeanModManager mod-registry (GPL-3.0); itch/Steam build only",
   "mods": [
     {
@@ -20,7 +20,8 @@
         {
           "id": "Reactor"
         }
-      ]
+      ],
+      "image": "https://starlight.allofus.dev/api/v3/mods/AchievementsAPI/thumbnail"
     },
     {
       "id": "AleLuduMod",
@@ -34,7 +35,8 @@
           ".dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://starlight.allofus.dev/api/v3/mods/pl.townofus.aleludu/thumbnail"
     },
     {
       "id": "AllTheRoles",
@@ -157,7 +159,8 @@
           "BetterAmongUs.dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://starlight.allofus.dev/api/v3/mods/com.d1gq.betteramongus/thumbnail"
     },
     {
       "id": "BetterCrewLink",
@@ -229,7 +232,8 @@
         {
           "id": "MiraAPI"
         }
-      ]
+      ],
+      "image": "https://starlight.allofus.dev/api/v3/mods/chipseq.chaostokens/thumbnail"
     },
     {
       "id": "CorsacCosmetics",
@@ -249,7 +253,8 @@
           "id": "Reactor",
           "optional": true
         }
-      ]
+      ],
+      "image": "https://starlight.allofus.dev/api/v3/mods/CorsacCosmetics/thumbnail"
     },
     {
       "id": "CrewmeleonRedrawn",
@@ -271,7 +276,8 @@
         {
           "id": "MiraAPI"
         }
-      ]
+      ],
+      "image": "https://starlight.allofus.dev/api/v3/mods/dev.allofus.crewmeleon/thumbnail"
     },
     {
       "id": "CrowdedMod",
@@ -343,7 +349,8 @@
         {
           "id": "Reactor"
         }
-      ]
+      ],
+      "image": "https://starlight.allofus.dev/api/v3/mods/com.divani.mods/thumbnail"
     },
     {
       "id": "EmojisInTheChat",
@@ -357,7 +364,8 @@
           ".dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://starlight.allofus.dev/api/v3/mods/missingpixel.emojismod/thumbnail"
     },
     {
       "id": "EndlessHostRoles",
@@ -382,7 +390,8 @@
         ],
         "exclude": []
       },
-      "featured": true
+      "featured": true,
+      "image": "https://starlight.allofus.dev/api/v3/mods/com.gurge44.endlesshostroles/thumbnail"
     },
     {
       "id": "ExtremeRoles",
@@ -532,7 +541,8 @@
       },
       "keepFiles": [
         "plugins/LevelImposter"
-      ]
+      ],
+      "image": "https://starlight.allofus.dev/api/v3/mods/com.DigiWorm.LevelImposter/thumbnail"
     },
     {
       "id": "MinimumLevel",
@@ -560,7 +570,8 @@
           "MiraAPI.dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://starlight.allofus.dev/api/v3/mods/mira.api/thumbnail"
     },
     {
       "id": "ModExplorer",
@@ -635,7 +646,8 @@
           "NewMod-MS",
           "MS"
         ]
-      }
+      },
+      "image": "https://starlight.allofus.dev/api/v3/mods/com.callofcreator.newmod/thumbnail"
     },
     {
       "id": "MiraNotePad",
@@ -658,7 +670,8 @@
           "id": "TownOfUs",
           "optional": true
         }
-      ]
+      ],
+      "image": "https://starlight.allofus.dev/api/v3/mods/maxi.notepad/thumbnail"
     },
     {
       "id": "OutfitChanger",
@@ -694,7 +707,8 @@
       ],
       "incompatible": [
         "CrowdedMod"
-      ]
+      ],
+      "image": "https://starlight.allofus.dev/api/v3/mods/dev.allofus.overloaded/thumbnail"
     },
     {
       "id": "PerfectComms",
@@ -725,7 +739,8 @@
           ".dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://starlight.allofus.dev/api/v3/mods/dev.xtracube.pokelobby/thumbnail"
     },
     {
       "id": "LotusContinued",
@@ -745,7 +760,8 @@
           "Epic",
           "MS"
         ]
-      }
+      },
+      "image": "https://starlight.allofus.dev/api/v3/mods/com.discussions.LotusContinued/thumbnail"
     },
     {
       "id": "PropHunt",
@@ -796,7 +812,8 @@
           ".dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://starlight.allofus.dev/api/v3/mods/dev.xtracube.smolmod/thumbnail"
     },
     {
       "id": "StellarRolesAU",
@@ -900,7 +917,8 @@
           ".dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://starlight.allofus.dev/api/v3/mods/jp.ykundesu.supernewrolesnext/thumbnail"
     },
     {
       "id": "SyzyfowyTownOfUs",
@@ -914,7 +932,8 @@
           ".dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://starlight.allofus.dev/api/v3/mods/com.syzyf.townofus/thumbnail"
     },
     {
       "id": "TechTechsSoundMod",
@@ -1014,7 +1033,8 @@
         "LaunchpadReloaded"
       ],
       "targets": "v16.0.2",
-      "featured": true
+      "featured": true,
+      "image": "https://starlight.allofus.dev/api/v3/mods/me.eisbison.theotherroles/thumbnail"
     },
     {
       "id": "TouMiraLegacy",
@@ -1085,7 +1105,8 @@
           ".dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://starlight.allofus.dev/api/v3/mods/com.limeau.townofhostoptimized/thumbnail"
     },
     {
       "id": "TownOfUs",
@@ -1122,7 +1143,8 @@
         "AllTheRoles",
         "LaunchpadReloaded"
       ],
-      "featured": true
+      "featured": true,
+      "image": "https://starlight.allofus.dev/api/v3/mods/auavengers.tou.mira/thumbnail"
     },
     {
       "id": "TownOfUsMiraUnleashed",
@@ -1137,7 +1159,8 @@
         ],
         "exclude": []
       },
-      "featured": true
+      "featured": true,
+      "image": "https://starlight.allofus.dev/api/v3/mods/rewalo.mira.unleashed/thumbnail"
     },
     {
       "id": "UnlockDleks",
@@ -1193,7 +1216,8 @@
           ".dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://starlight.allofus.dev/api/v3/mods/yanplaRoles/thumbnail"
     }
   ]
 }

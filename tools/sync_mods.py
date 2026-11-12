@@ -13,6 +13,7 @@ committed mods.json from raw.githubusercontent.com, never this tool or any API.
 Usage:  python tools/sync_mods.py
 """
 import json
+import re
 import sys
 import urllib.request
 from datetime import datetime, timezone
@@ -22,6 +23,12 @@ ROOT = Path(__file__).resolve().parent.parent
 BMM_REGISTRY_URL = "https://raw.githubusercontent.com/rewalo/BeanModManager/master/mod-registry.json"
 EXTRA_FILE = ROOT / "mods-extra.json"
 OUT_FILE = ROOT / "mods.json"
+
+# Images: fetched once from Starlight's API (allofus.dev) and cached here, so a
+# sync never hammers their server and works offline afterwards. Thumbnails are
+# hotlinked from their server; the launcher treats a missing image as cosmetic.
+STARLIGHT_API = "https://starlight.allofus.dev/api/v3"
+IMG_CACHE = ROOT / "tools" / "starlight-images.json"
 
 # BMM category -> our category
 CATEGORIES = {
@@ -38,6 +45,43 @@ def fetch(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": "AUL-catalog-sync"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.read().decode("utf-8")
+
+
+def github_repo_of(url: str):
+    """The owner/repo a Starlight 'source' link points at, or None."""
+    if not url or "github.com" not in url:
+        return None
+    repo = url.split("github.com", 1)[1].lstrip("/").split("?")[0].strip("/")
+    repo = re.sub(r"\.git$", "", repo, flags=re.I)
+    return repo if "/" in repo else None
+
+
+def starlight_images(refresh: bool = False) -> dict:
+    """Map of github 'owner/repo' (lowercase) -> Starlight thumbnail URL."""
+    if IMG_CACHE.exists() and not refresh:
+        return json.loads(IMG_CACHE.read_text(encoding="utf-8"))
+    mods, offset = [], 0
+    while True:
+        batch = json.loads(fetch(f"{STARLIGHT_API}/mods?limit=100&offset={offset}"))
+        mods.extend(batch)
+        if len(batch) < 100:
+            break
+        offset += 100
+    print(f"Starlight catalog: {len(mods)} mods — reading their GitHub links ...")
+    mapping = {}
+    for m in mods:
+        try:
+            detail = json.loads(fetch(m["_links"]["self"]))
+        except Exception as e:
+            print(f"  detail failed for {m.get('name')}: {e}")
+            continue
+        src = next((l.get("url") for l in detail.get("links", []) if l.get("type") == "source"), None)
+        repo = github_repo_of(src)
+        thumb = m.get("_links", {}).get("thumbnail")
+        if repo and thumb:
+            mapping[repo.lower()] = thumb
+    IMG_CACHE.write_text(json.dumps(mapping, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+    return mapping
 
 
 def bucket(f) -> dict:
@@ -97,6 +141,14 @@ def map_mod(m: dict) -> dict:
     return out
 
 
+# Mod id -> Starlight cache repo key, for entries whose GitHub URL changed
+# since Starlight recorded it (repo renamed or moved to an org). Curated by hand.
+IMAGE_OVERRIDES = {
+    "AchievementsAPI": "am-clonec/achievements-api",
+    "TheOtherRolesGMIA": "gmia-nexus/theotherrolesgmia",
+}
+
+
 def main() -> int:
     print(f"Fetching {BMM_REGISTRY_URL} ...")
     bmm = json.loads(fetch(BMM_REGISTRY_URL))
@@ -114,6 +166,25 @@ def main() -> int:
     else:
         print("no mods-extra.json — create one to add mods outside the BMM list")
 
+    # Attach the Starlight thumbnail for every mod whose GitHub repo we share.
+    # A failure here only costs us images: cached mappings are reused when the
+    # API is unreachable, and the sync itself never fails because of it.
+    try:
+        imgs = starlight_images()
+        print(f"Starlight images: {len(imgs)} known repos")
+    except Exception as e:
+        print(f"Starlight images unavailable ({e}) — continuing without new images")
+        imgs = {}
+        if IMG_CACHE.exists():
+            imgs = json.loads(IMG_CACHE.read_text(encoding="utf-8"))
+    matched = 0
+    for m in mods.values():
+        key = IMAGE_OVERRIDES.get(m.get("id", ""), m.get("github", "").lower())
+        url = imgs.get(key)
+        if url:
+            m["image"] = url
+            matched += 1
+
     catalog = {
         "schema": 1,
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -121,7 +192,7 @@ def main() -> int:
         "mods": sorted(mods.values(), key=lambda m: m["name"].lower()),
     }
     OUT_FILE.write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Wrote {OUT_FILE.name}: {len(catalog['mods'])} mods")
+    print(f"Wrote {OUT_FILE.name}: {len(catalog['mods'])} mods, {matched} with images")
 
     warned = [m["id"] for m in catalog["mods"] if "asset" not in m and "dll" not in m]
     if warned:
