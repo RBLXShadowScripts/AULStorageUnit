@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-12T08:50:05Z",
+  "updated": "2026-11-12T09:18:48Z",
   "source": "github.com/rewalo/BeanModManager mod-registry (GPL-3.0); itch/Steam build only",
   "mods": [
     {
@@ -60,7 +60,8 @@
         "LaunchpadReloaded",
         "StellarRolesAU"
       ],
-      "targets": "v16.0.5"
+      "targets": "v16.0.5",
+      "image": "https://github.com/Zeo666/AllTheRoles/raw/main/Images/ATR-logo.png"
     },
     {
       "id": "AmongUsRevamped",
@@ -91,7 +92,8 @@
           "Microsoft",
           "Xbox"
         ]
-      }
+      },
+      "image": "https://raw.githubusercontent.com/apemv/amongusrevamped/HEAD/Resources/Images/DleksBanner-Wordart.png"
     },
     {
       "id": "AUnlocker",
@@ -116,8 +118,8 @@
           ".dll"
         ],
         "exclude": []
-      }
-      "image": "https://github.com/AstralKitsune/AUnlocker/raw/main/icon.png"
+      },
+      "image": "https://github.com/astra1dev/AUnlocker/raw/main/icon.png"
     },
     {
       "id": "BepInEx",
@@ -134,7 +136,8 @@
           "x86"
         ]
       },
-      "package": "nested"
+      "package": "nested",
+      "image": "https://raw.githubusercontent.com/bepinex/bepinex/HEAD/assets/logos/logo.png"
     },
     {
       "id": "BetterAmongUs",
@@ -179,7 +182,8 @@
         ]
       },
       "executable": "Better-CrewLink.exe",
-      "featured": true
+      "featured": true,
+      "image": "https://raw.githubusercontent.com/ohmyguus/bettercrewlink/HEAD/resources/icon.png"
     },
     {
       "id": "BetterPolus",
@@ -193,7 +197,8 @@
           "BetterPolus.dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://github.com/Brybry16/BetterPolus/raw/main/images/tempcold-pos.png"
     },
     {
       "id": "Better-BCL",
@@ -211,7 +216,8 @@
         ]
       },
       "executable": "Better-CrewLink.exe",
-      "featured": true
+      "featured": true,
+      "image": "https://raw.githubusercontent.com/rewalo/bettercrewlink/HEAD/resources/icon.png"
     },
     {
       "id": "ChaosTokens",
@@ -325,7 +331,8 @@
           "id": "Reactor",
           "version": ">=2.5.0"
         }
-      ]
+      ],
+      "image": "https://raw.githubusercontent.com/devs-us/cursed-among-us/HEAD/Images/icon.png"
     },
     {
       "id": "DivaniMods",
@@ -452,7 +459,8 @@
           "source",
           "Source"
         ]
-      }
+      },
+      "image": "https://raw.githubusercontent.com/impostor/impostor/HEAD/docs/images/logo_458.png"
     },
     {
       "id": "LasMonjas",
@@ -485,7 +493,8 @@
         "AllTheRoles",
         "StellarRolesAU",
         "LaunchpadReloaded"
-      ]
+      ],
+      "image": "https://raw.githubusercontent.com/kirayamato94/lasmonjas/HEAD/gitHubImages/LasMonjas_banner.png"
     },
     {
       "id": "LaunchpadReloaded",
@@ -516,7 +525,8 @@
         "TheOtherRoles",
         "AllTheRoles",
         "StellarRolesAU"
-      ]
+      ],
+      "image": "https://raw.githubusercontent.com/all-of-us-mods/launchpadreloaded/HEAD/LaunchpadBanner.png"
     },
     {
       "id": "LevelImposter",
@@ -612,7 +622,8 @@
           "MoreGamemodes.dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://raw.githubusercontent.com/rabek009/moregamemodes/HEAD/Resources/GuessIcon.png"
     },
     {
       "id": "Nebula",
@@ -726,7 +737,8 @@
       },
       "incompatible": [
         "BetterCrewLink"
-      ]
+      ],
+      "image": "https://raw.githubusercontent.com/artriy/perfect-comms/HEAD/Resources/MicOn.png"
     },
     {
       "id": "PokeLobby",
@@ -785,7 +797,8 @@
           ".dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://raw.githubusercontent.com/ugackminer53/prophunt/HEAD/Images/prophuntlogo.png"
     },
     {
       "id": "Reactor",
@@ -799,7 +812,8 @@
           "Reactor.dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://raw.githubusercontent.com/nuclearpowered/reactor/HEAD/assets/icon.png"
     },
     {
       "id": "SmolMod",
@@ -904,7 +918,8 @@
             "version": ">=2.3.1"
           }
         ]
-      }
+      },
+      "image": "https://raw.githubusercontent.com/submergedamongus/submerged/HEAD/Submerged/Resources/Images/FilterIcon.png"
     },
     {
       "id": "SuperNewRoles",
@@ -994,7 +1009,8 @@
         "LaunchpadReloaded",
         "StellarRolesAU"
       ],
-      "targets": "v15.11.0"
+      "targets": "v15.11.0",
+      "image": "https://raw.githubusercontent.com/theotherrolesau/theotherroles/HEAD/Images/TOR_logo.png"
     },
     {
       "id": "TheOtherRolesGMIA",
@@ -1054,7 +1070,8 @@
         {
           "id": "TownOfUs"
         }
-      ]
+      ],
+      "image": "https://raw.githubusercontent.com/au-avengers/toumiralegacy/HEAD/TouMiraLegacy/Resources/Banner.png"
     },
     {
       "id": "TOHE",
@@ -1092,7 +1109,8 @@
         "AllTheRoles",
         "LaunchpadReloaded"
       ],
-      "featured": true
+      "featured": true,
+      "image": "https://github.com/EnhancedNetwork/TownofHost-Enhanced/raw/main/Resources/Background/TOHE-Background-Old.jpg"
     },
     {
       "id": "TOHO",
@@ -1175,7 +1193,8 @@
           "UnlockDleks.dll"
         ],
         "exclude": []
-      }
+      },
+      "image": "https://raw.githubusercontent.com/tommy-xl/unlock-dleks-eht/HEAD/Resources/Images/DleksBanner-Icon.png"
     },
     {
       "id": "VanillaEnhancements",
