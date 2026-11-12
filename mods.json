@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-12T09:18:48Z",
+  "updated": "2026-11-12T09:42:06Z",
   "source": "github.com/rewalo/BeanModManager mod-registry (GPL-3.0); itch/Steam build only",
   "mods": [
     {
@@ -119,6 +119,8 @@
         ],
         "exclude": []
       },
+      "featured": true,
+      "pin": 1,
       "image": "https://github.com/astra1dev/AUnlocker/raw/main/icon.png"
     },
     {

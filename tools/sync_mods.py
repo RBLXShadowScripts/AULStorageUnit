@@ -143,6 +143,9 @@ def map_mod(m: dict) -> dict:
     return out
 
 
+# Mods pinned to the very front of the browser in the featured sort (pin 1 first).
+PINNED = {"AUnlocker": 1}
+
 # Mod id -> Starlight cache repo key, for entries whose GitHub URL changed
 # since Starlight recorded it (repo renamed or moved to an org). Curated by hand.
 IMAGE_OVERRIDES = {
@@ -235,6 +238,14 @@ def main() -> int:
             mods[m["id"]] = m
     else:
         print("no mods-extra.json — create one to add mods outside the BMM list")
+
+    for mid, rank in PINNED.items():
+        if mid in mods:
+            mods[mid]["featured"] = True
+            mods[mid]["pin"] = rank
+            print(f"  pinned first: {mid}")
+        else:
+            print(f"  WARNING: pinned id not in catalog: {mid}")
 
     # Images, three layers: Starlight thumbnails where they exist, then
     # hand-picked raw GitHub links, then a scan of the mod's own repo for
